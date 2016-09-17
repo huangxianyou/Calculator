@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="5dip">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip" android:background="#FFFFFF"
+        android:gravity="center_vertical|right"  android:textSize="30dip"
+        android:textColor="#FF6600">
+    </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip">
+        <Button
+            android:text="Backspace" android:id="@+id/btnBackspace"
+            android:layout_width="160dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="CE" android:id="@+id/btnCE"
+            android:layout_width="160dip" android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip">
+        <Button
+            android:text="7" android:id="@+id/Button07"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="8" android:id="@+id/Button08"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="9" android:id="@+id/Button09"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="+" android:id="@+id/ButtonJia"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip">
+        <Button
+            android:text="4" android:id="@+id/Button04"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="5" android:id="@+id/Button05"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="6" android:id="@+id/Button06"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="-" android:id="@+id/ButtonJian"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip">
+        <Button
+            android:text="1" android:id="@+id/Button01"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="2" android:id="@+id/Button02"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="3" android:id="@+id/Button03"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="*" android:id="@+id/ButtonCheng"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip">
+        <Button
+            android:text="0" android:id="@+id/Button00"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="c" android:id="@+id/ButtonC"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="=" android:id="@+id/ButtonDeng"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="/" android:id="@+id/ButtonChu"
+            android:layout_width="80dip" android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
